@@ -1,0 +1,108 @@
+﻿
+body {
+	font: 13px Arial;
+	color: grey;
+}
+.clearfix {
+	clear: both;
+}
+.nav ul {
+	list-style-type: none;
+	float: right;
+	margin-top: 0;
+}
+.nav ul li {
+	display: inline;
+	padding-right: 15px;
+	
+}
+.nav a {
+	text-decoration: none;
+	color: black;
+}
+li:first-child {
+	margin-top: -5px;
+}
+.nav a:hover {
+	text-decoration: underline;
+}
+img {
+	width: 20px;
+}
+#B {
+	width: 30px;
+}
+
+.google-image {
+	margin: auto;
+	height: 102px;
+	width: 302px;
+	background-image: url(images/google.jpg);
+	background-size: cover;
+	margin-top: 145px;
+}
+.google-image-country {
+	position: relative;
+	top: 80px;
+	left: 230px;
+	color: #4285f4;
+	font-size: 16px;
+}
+.google-search {
+	border: solid 1px #4285f4;
+	width: 580px;
+	height: 38px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+input {
+	border: none;
+	font-size: 18px;
+	padding-left: 8px;
+	margin-top: 7px;
+}
+input:focus {
+	outline: 0;
+}
+.google-buttons {
+	width: 580px;
+	height: 35px;
+	margin: auto;
+	margin-top: 40px;
+	padding-left: 300px;
+}
+.button {
+	display: inline;
+	background-color: #f2f2f2;
+	padding: 10px 20px;
+	font-size: 13px;
+	font-weight: bold;
+	margin-right: 7px;
+}
+.button:hover {
+	color: black;
+	outline: 1px solid black;
+}
+.footer-left {
+	position: absolute;
+	bottom: 0;
+}
+.footer ul li{
+	display: inline;
+	list-style-type: none;
+}
+.footer-right {
+	position: absolute;
+	bottom: 0;
+	right: 0;	
+}
+.footer a {
+	text-decoration: none;
+	color: grey;
+	margin-right: 25px;
+	font-size: 13px;
+}
+.footer a:hover {
+	text-decoration: underline;
+}
